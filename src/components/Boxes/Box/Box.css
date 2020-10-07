@@ -1,0 +1,41 @@
+.Box{
+    padding:10px;
+    display: flex; 
+    box-sizing: border-box; 
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.Item{
+    display: block;
+}
+.round{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.square{
+    width: 60px;
+    height: 60px;
+}
+.rectangle{
+    width: 80px;
+    height: 60px;
+   
+}
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 80px solid red;
+}
+
+.oval{
+    width: 80px;
+    height: 60px;
+    border-radius: 30px;
+}
+
